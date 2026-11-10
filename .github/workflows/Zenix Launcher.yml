@@ -29,7 +29,7 @@ jobs:
         id: locate
         shell: bash
         run: |
-          ZIP_FILE="$(find . -maxdepth 1 -type f -iname 'Zenix_Launcher_V1_GitHub_Fix.zip' -print -quit)"
+          ZIP_FILE="$(find . -maxdepth 1 -type f -iname 'Zenix_Launcher_V1_Logo_Updated.zip' -print -quit)"
 
           if [ -z "$ZIP_FILE" ]; then
             echo "ERROR: Zenix source ZIP not found in repository root."
